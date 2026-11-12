@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Python script that uses a REST API for a given employee ID,
+Module that uses a REST API for a given employee ID,
 returns information about his/her TODO list progress.
 """
 
+import json
 import sys
 import urllib.request
-import json
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:

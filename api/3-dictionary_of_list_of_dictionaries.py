@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Python script to export TODO data of all employees in JSON format.
+Module to export TODO data of all employees in JSON format.
 """
 
 import json
@@ -22,7 +22,6 @@ if __name__ == "__main__":
 
     for user in users_data:
         user_id = str(user["id"])
-        username = user["username"]
         out_data[user_id] = []
 
     for task in todos_data:
